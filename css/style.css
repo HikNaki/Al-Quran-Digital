@@ -1,0 +1,23 @@
+.card-surat {
+    cursor: pointer;
+    transition: 0.8s;
+}
+.card-surat:hover {
+    background-color: #caded1;
+}
+.hidden-button {
+    display: none;
+}
+.loader{
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    place-items: center center;
+}
+.hidden-loader{
+    display: none;
+}
